@@ -1,6 +1,4 @@
-Sure! Here's your markdown file with all the Chinese translated into English:
 
----
 
 # $A^2DM$: Enhancing EEG artifact removal by fusing artifact representation into the time-frequency domain
 
@@ -16,6 +14,8 @@ Sure! Here's your markdown file with all the Chinese translated into English:
 In our model, we first construct a pretraining dataset to generate artifact representations. We use the code from https://github.com/ncclabsustech/EEGdenoiseNet to generate EEG signal segments with artifacts of different signal-to-noise ratios and artifact types. Labels are created based on the corresponding artifact data, and a classification task is used to train the model (the input is EEG segments with artifacts, and the output is the artifact representation). The network structure is in the file `Classifier_network_base.py`.
 
 **We recommend retraining the artifact representation module according to your specific task.**
+
+The data and model files are available in the `Releases` section and can be accessed directly.
 
 ### Generate Artifact Removal Dataset
 
