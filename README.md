@@ -23,7 +23,7 @@ Similarly, we use the code from https://github.com/ncclabsustech/EEGdenoiseNet t
 
 ## Quick Test
 
-We provide the test set used in our study (`test_input.npy` and `test_output.npy`) and the pretrained model (`basemodel_84_75.692.pth`).
+We provide the test set used in our study (`test_input.npy` and `test_output.npy`) ，the pre-trained model (`basemodel.pth`), and the trained model(`a2dm.pkl`)
 
 You can directly run the test using:
 
